@@ -1,0 +1,29 @@
+{
+    "name": "android-emulator-website",
+    "version": "1.0.0",
+    "description": "A sample project for an Android emulator website.",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "dependencies": {
+        "express": "^4.21.2",
+        "multer": "^1.4.5-lts.2",
+        "socket.io": "^4.8.1"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9"
+    },
+    "author": "Your Name",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/VSH-wq/Web-Emulator.git"
+    },
+    "keywords": [],
+    "bugs": {
+        "url": "https://github.com/VSH-wq/Web-Emulator/issues"
+    },
+    "homepage": "https://github.com/VSH-wq/Web-Emulator#readme"
+}
